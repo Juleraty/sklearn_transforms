@@ -1,4 +1,8 @@
 from sklearn.base import BaseEstimator, TransformerMixin
+from sklearn.datasets import load_iris
+from sklearn import tree
+from sklearn.metrics import accuracy_score
+import numpy as np
 
 iris = load_iris()
 
