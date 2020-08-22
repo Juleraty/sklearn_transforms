@@ -1,7 +1,5 @@
 from setuptools import setup
-from sklearn.datasets import load_iris
-from sklearn import tree
-from sklearn.metrics import accuracy_score
+
 
 setup(
       name='my_custom_sklearn_transforms',
